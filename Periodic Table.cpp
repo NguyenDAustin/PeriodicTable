@@ -101,7 +101,7 @@ void elInfo()
     elements["tb"] = {"Tb", 65, "Terbium", 158.92534, "+3"};
     elements["dy"] = {"Dy", 66, "Dysprosium", 162.50, "+3"};
     elements["ho"] = {"Ho", 67, "Holmium", 164.9303, "+3"};
-    elements["er"] = {"Er", 68, "Erbium", 167.26, "3"};
+    elements["er"] = {"Er", 68, "Erbium", 167.26, "+3"};
     elements["tm"] = {"Tm", 69, "Thulium", 168.9342, "+3"};
     elements["yb"] = {"Yb", 70, "Ytterbium", 173.04, "+3"};
     elements["lu"] = {"Lu", 71, "Lutetium", 174.967, "+3"};
@@ -120,12 +120,28 @@ void elInfo()
     elements["po"] = {"Po", 84, "Polonium", 209.0, "-2, +2, +4, +6"};
     elements["at"] = {"At", 85, "Astatine", 210.0, "+-1, +3, +5, +7"};
     elements["rn"] = {"Rn", 86, "Radon", 222.0, "n/a"};
-    elements["fr"] = {"Fr", 87, "Francium", 223.0, "1"};
-    elements["ra"] = {"Ra", 88, "Radium", 226.0, "2"};
-    elements["ac"] = {"Ac", 89, "Actinium", 227.0, "3"};
-    elements["th"] = {"Th", 90, "Thorium", 232.0281, "4"};
-    elements["pa"] = {"Pa", 91, "Protactinium", 231.0, "5"};
+    elements["fr"] = {"Fr", 87, "Francium", 223.0, "+1"};
+    elements["ra"] = {"Ra", 88, "Radium", 226.0, "+2"};
+    elements["ac"] = {"Ac", 89, "Actinium", 227.0, "+3"};
+    elements["th"] = {"Th", 90, "Thorium", 232.0281, "+4"};
+    elements["pa"] = {"Pa", 91, "Protactinium", 231.0, "+5"};
     elements["u"] = {"U", 92, "Uranium", 238.0289, "+6, +5, +4, +3, +2"};
+    elements["np"] = {"Np", 93, "Neptunium", 237.0492, "+7, +6, +5, +4, +3"};
+    elements["pu"] = {"Pu", 94, "Plutonium", 244, "+7, +6, +5, +4, +3, +2"};
+    elements["am"] = {"Am", 95, "Americium", 243, "+6, +5, +4, +3, +2"};
+    elements["cm"] = {"Cm", 96, "Curium", 247, "+4, +3, +2"};
+    elements["bk"] = {"Bk", 97, "Berkelium", 247, "+4, +3, +2"};
+    elements["cf"] = {"Cf", 98, "Californium", 251, "+5, +4, +3, +2"};
+    elements["es"] = {"Es", 99, "Einsteinium", 252, "+4, +3, +2"};
+    elements["fm"] = {"Fm", 100, "Fermium", 257, "+4, +3, +2"};
+    elements["md"] = {"Md", 101, "Mendelevium", 258, "+3, +2, 1"};
+    elements["mo"] = {"No", 102, "Nobelium", 259, "+3, +2"};
+    elements["lr"] = {"Lr", 103, "Lawrencium", 262, "+3, +2"};
+    elements["rf"] = {"Rf", 104, "Rutherfordium", 267, "+4, +3"};
+    elements["db"] = {"Db", 105, "Dubnium", 262, "+5, +4"};
+    elements["sg"] = {"Sg", 106, "Seaborgium", 269, "+6, +5, +4"};
+    elements["bh"] = {"Bh", 107, "Bohrium", 264, "+7, +6, +5, +4, +3, +2"};
+    elements["hs"] = {"Hs", 108, "Hassium", 269, "+8, +7, +6, +5, +4, +3, +2"};
     elements["-1"] = {"", 0, "", 0.0, ""};
 
 }
